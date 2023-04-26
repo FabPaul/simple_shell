@@ -17,7 +17,7 @@ void prompt(char **av, char **envp)
 
 	while (1)
 	{
-		printf("EnterCmd$ ");
+		printf("cisfun$ ");
 
 		stream = getline(&lineptr, &n, stdin);
 		if (stream == -1)
