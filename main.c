@@ -1,19 +1,12 @@
 #include "main.h"
 
 /**
- * main - Simple shell
- * @ac: Number of command line args to be passed
- * @av: command line arguments
- * @envp: Environment variable
- * Return: 0 if success
+ * main - Simple shell function
+ * Return: 0
  */
 
-int main(int ac, char **av, char **envp)
+int main(void)
 {
-	if (ac == 1)
-	{
-		prompt(av, envp);
-	}
-
+	prompt();
 	return (0);
 }

@@ -15,7 +15,10 @@
 #include <sys/resource.h>
 #include <stddef.h>
 
+void prompt(void);
 
-void prompt(char **av, char **envp);
+char *read_line(void);
+
+char **parse_line(char *line);
 
 #endif
