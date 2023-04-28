@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * getline fi
- * 
- * 
+ * This functions *getline reads a line
+ * searches
+ * returns 0
 */
 
 char *getline(void)
